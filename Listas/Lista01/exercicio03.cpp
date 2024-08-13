@@ -22,8 +22,8 @@ int main(){
     media = (n1 + n2)/2;
 
     // Formatação do resultado
-    std::cout << setprecision(3);
-    std::cout << setiosflags(ios::showpoint);
+    std::cout << std::setprecision(3);
+    std::cout << setiosflags(std::ios::showpoint);
 
     // Verifica se ele foi aprovado
     if (media >= 6){

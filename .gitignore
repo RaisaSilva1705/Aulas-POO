@@ -1,19 +1,32 @@
-# Ignora executáveis MacOS
-*
-!/**/
-!*.*
+# Prerequisites
+*.d
 
-# Ignora arquivos objeto
+# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Ignora executáveis
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
 *.out
 *.app
-
-# Ignora a pasta .DIST
-.DIST
-**/.DIST

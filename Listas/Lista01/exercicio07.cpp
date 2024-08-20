@@ -1,36 +1,29 @@
 // exercicio07.cpp
 /*
-Programa que permite a leitura de um valor inteiro e apresenta o resultado
-do cálculo da tabuada até 10 para esse valor.
+Aluno: Raisa Priscila da Silva - POO 4º Semestre
+
+Escreva um programa para ler os valores de uma temperatura em graus Fahrenheit e
+apresentala-la convertida para graus Kelvin. A fórmula de  conversão de graus Fahrenheit para
+graus Kelvin é dada por K = (F - 32) x 5/9 + 273,15. Nessa fórmula, F corresponde à
+temperatura em graus Fahrenheit e K corresponde à temperatura em graus Kelvin. Para
+apresentar o resultado, considere a utilização de duas casas decimais.
 */
 
 #include <iostream>
 #include <iomanip>
 
 int main(){
-    int contador{0}, valor, resultado;
+    float F, K;
 
-    std::cout << "\nLaço de repetição com condição inicial\n\n";
-    std::cout << "* Informe o valor desejado: "; std::cin >> valor;
-    std::cout << "\n=> Tabuada do " << valor << "\n\n";
+    std::cout << "\nPrograma de conversão de Fahrenheit para Kelvin.\n\n";
+    std::cout << "* Informe a temperatura em Fahrenheit: "; std::cin >> F;
 
-    // Laço para realizar o cálculo da tabuada
-    while (contador <= 10){
-        // Calcula o resultado
-        resultado = valor * contador;
+    // Conversão Fahrenheit para Kelvin.
+    K = (F - 32) * 5 / 9 + 273.15;
 
-        // Exibe a linha da tabuada
-        std::cout << std::setw(2) << valor;
-        std::cout << " X ";
-        std::cout << std::setw(2) << contador;
-        std::cout << " = ";
-        std::cout << std::setw(2) << resultado << std::endl;
-
-        // Incrementa o contador
-        contador++;
-    }
-
-    std::cout << std::endl;
+    // Apresentação em duas casas decimais.
+    std::cout << std::fixed << std::setprecision(2); 
+    std::cout << "A temperatura " << F << " °F convertido para Kelvin é: " << K << " K\n\n";
 
     return 0;
 }

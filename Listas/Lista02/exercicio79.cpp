@@ -1,4 +1,13 @@
 // exercicio79.cpp
+/*
+Escreva um programa que utilize uma função para exibir o seguinte padrão:
+
+*****
+ ****
+  ***
+   **
+    *
+*/
 
 #include <iostream>
 #include <sstream>

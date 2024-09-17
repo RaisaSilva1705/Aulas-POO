@@ -1,4 +1,4 @@
-// ponteiroExemplo07.cpp
+// exemplo07ponteiro.cpp
 /*
 Relacionamento entre arrays e ponteiros
 */

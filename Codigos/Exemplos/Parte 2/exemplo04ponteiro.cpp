@@ -1,4 +1,4 @@
-// ponteiroExemplo04.cpp
+// exemplo04ponteiro.cpp
 /*
 Passagem por referência com argumento ponteiro
 */

@@ -1,4 +1,4 @@
-// ponteiroExemplo09.cpp
+// exemplo09ponteiro.cpp
 /*
 Exemplo de um array de ponteiros para funções
 */

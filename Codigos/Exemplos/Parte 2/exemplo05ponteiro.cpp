@@ -1,4 +1,4 @@
-// ponteiroExemplo05.cpp
+// exemplo05ponteiro.cpp
 /*
 Exemplo de uso de array nativo e ponteiro
 */

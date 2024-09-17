@@ -1,4 +1,4 @@
-// ponteiroExemplo06.cpp
+// exemplo04ponteiro.cpp
 /*
 Exemplo de aritmética de ponteiros
 */

@@ -1,4 +1,4 @@
-// stringExemplo10.cpp
+// exemplo10string.cpp
 /*
 Exemplo de uso de strcpy e strncpy
 */

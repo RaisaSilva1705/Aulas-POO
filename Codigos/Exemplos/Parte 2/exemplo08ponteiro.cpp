@@ -1,4 +1,4 @@
-// ponteiroExemplo08.cpp
+// exemplo08ponteiro.cpp
 /*
 Ponteiro para funções
 */
